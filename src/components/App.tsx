@@ -1,7 +1,14 @@
 import React from "react";
+import Gerador from "./components-secondary/Gerador";
+import Header from "./components-secondary/Header";
 
 function App() {
-  return <div className="App">Olá mundo!</div>;
+  return (
+    <>
+      <Header />
+      <Gerador />
+    </>
+  );
 }
 
 export default App;
