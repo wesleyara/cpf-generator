@@ -1,0 +1,39 @@
+.containerGerador {
+  width: 50%;
+  background-color: cornflowerblue;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.containerGerador input {
+  padding: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.load progress {
+    padding: 50px;
+    width: 600px;
+}
+
+.load {
+  width: 50%;
+  background-color: cornflowerblue;
+  position: relative;
+  padding: 30px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.load span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
