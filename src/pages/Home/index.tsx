@@ -1,6 +1,6 @@
-import { Header } from "../../layout/Header/Header";
-import { Gerador } from "../../components/Gerador/Gerador";
-import { Footer } from "../../layout/Footer/Footer";
+import { Header } from "../../layout/Header";
+import { Gerador } from "../../components/Gerador";
+import { Footer } from "../../layout/Footer";
 
 export function Home() {
   return (

@@ -1,8 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useEffect, useState } from "react";
-import style from "../components-styles/Gerador.module.scss";
+import { useEffect, useState } from "react";
 
-export default function Gerador() {
+export function Gerador() {
   const [renderiza, setRenderiza] = useState(false);
 
   useEffect(() => {
@@ -58,23 +57,23 @@ export default function Gerador() {
 
   return (
     <>
-      <div className={style.containerGerador}>
+      <div>
         <h2>Clique no botão abaixo para gerar o CPF!</h2>
         <br />
         <input onClick={gerar} type="button" value="GERAR CPF" />
       </div>
       {renderiza == true && (
         <>
-          <div className={style.load}>
+          <div>
             <progress value="0" max="100"></progress>
             <span>0%</span>
           </div>
         </>
       )}
       {renders == true && (
-        <div className={style.cpfContainer}>
+        <div>
           Aqui está o seu CPF:
-          <div className={style.cpf}>{conteudo}</div>
+          <div>{conteudo}</div>
         </div>
       )}
     </>

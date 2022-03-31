@@ -1,9 +1,6 @@
-import React from "react";
-import style from "../components-styles/Footer.module.scss";
-
-export default function Footer() {
+export function Footer() {
   return (
-    <div className={style.footer}>
+    <div>
       <p>
         <a
           href="mailto:wesleyara.contato@gmail.com"
